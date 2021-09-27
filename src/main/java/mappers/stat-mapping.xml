@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="StatDAO">
+
+	<select id="cakeStat" resultType="stat">
+	</select>
+	
+	<select id="ganderStat" resultType="stat">
+	</select>
+	
+	<select id="ageStat" resultType="stat">
+	</select>
+   
+</mapper>
